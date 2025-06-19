@@ -1,3 +1,10 @@
+@import "fonts";
+
+
+body {
+    font-family: 'PT';
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -7,7 +14,9 @@
         .header__logo {}
     }
 
-    .hader__title {}
+    .hader__title {
+        font-family: 'PT';
+    }
 
     .header__menu {
         background-image: url(../images/menu.svg);
